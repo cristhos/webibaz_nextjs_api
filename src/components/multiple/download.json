@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_info_downloads",
+  "info": {
+    "displayName": "Download",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
