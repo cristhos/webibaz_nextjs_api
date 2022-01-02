@@ -4,7 +4,7 @@
   "info": {
     "singularName": "company",
     "pluralName": "companies",
-    "displayName": "company",
+    "displayName": "Company",
     "description": ""
   },
   "options": {
@@ -16,13 +16,11 @@
       "type": "string"
     },
     "slug": {
-      "type": "string"
+      "type": "uid",
+      "targetField": "title"
     },
     "description": {
       "type": "text"
-    },
-    "website": {
-      "type": "string"
     },
     "content": {
       "type": "richtext"
@@ -40,6 +38,11 @@
       "relation": "oneToMany",
       "target": "api::app.app",
       "mappedBy": "company"
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "multiple.link"
     }
   }
 }

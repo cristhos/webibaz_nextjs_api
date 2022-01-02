@@ -17,9 +17,8 @@
       "unique": true
     },
     "slug": {
-      "type": "string",
-      "required": true,
-      "unique": true
+      "type": "uid",
+      "targetField": "title"
     },
     "description": {
       "type": "text"

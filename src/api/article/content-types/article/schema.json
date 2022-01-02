@@ -18,12 +18,11 @@
       "unique": true
     },
     "slug": {
-      "type": "string",
-      "unique": true,
-      "required": true
+      "type": "uid",
+      "targetField": "title"
     },
     "description": {
-      "type": "string",
+      "type": "text",
       "required": true,
       "unique": true
     },
