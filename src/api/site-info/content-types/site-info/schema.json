@@ -37,6 +37,11 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::page.page"
+    },
+    "partners": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::partner.partner"
     }
   }
 }

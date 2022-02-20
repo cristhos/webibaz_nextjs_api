@@ -34,12 +34,6 @@
       "target": "api::article.article",
       "mappedBy": "app"
     },
-    "company": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::company.company",
-      "inversedBy": "apps"
-    },
     "cover": {
       "type": "media",
       "multiple": false,
