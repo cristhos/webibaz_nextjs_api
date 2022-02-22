@@ -44,12 +44,6 @@
       "target": "plugin::users-permissions.user",
       "inversedBy": "articles"
     },
-    "app": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::app.app",
-      "inversedBy": "articles"
-    },
     "tags": {
       "type": "relation",
       "relation": "manyToMany",
